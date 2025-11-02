@@ -39,14 +39,14 @@ The project consists of two parts:
 ## 4. Installation Steps
 
 ### Step 1: Clone the Repository
-Step 2:npm init -y
-Step 3:npm install express  dotenv 
-Step 4:PORT=5000
-JWT_SECRET=your_secret_key
-Step 5:users.json File
-Step 6:Run the Backend Server
-Step 7:Frontend Setup
-Step 8:How the Application Works
+### Step 2:npm init -y
+### Step 3:npm install express  dotenv 
+### Step 4:PORT=5000
+### JWT_SECRET=your_secret_key
+### Step 5:users.json File
+### Step 6:Run the Backend Server
+### Step 7:Frontend Setup
+### Step 8:How the Application Works
 1.The user enters their username and password on the login page.
 
 2.The frontend sends a POST request to the backend (/login) with these credentials.
