@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JWT Auth App</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+  <h2>Login Page</h2>
+  <input id="username" placeholder="Username">
+  <input id="password" placeholder="Password" type="password">
+  <button onclick="login()">Login</button>
+<div class="protected-section">
+  <h2>Protected Page</h2>
+  <button onclick="getProtected()">Get Protected Data</button>
+</div>
+<div id="output"></div>
+  <pre id="output"></pre>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
